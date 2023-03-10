@@ -45,3 +45,4 @@ nmap
 ngrok
 sqlmap
 nikto
+medusa
