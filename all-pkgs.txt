@@ -41,3 +41,7 @@ gulp
 yarn
 base-devel
 proxychains
+nmap
+ngrok
+sqlmap
+nikto
