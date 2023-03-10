@@ -37,4 +37,7 @@ curl
 nikto
 sqlmap
 metasploit
-
+gulp
+yarn
+base-devel
+proxychains
