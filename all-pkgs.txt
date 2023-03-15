@@ -1,4 +1,5 @@
 gcc
+cmake
 python
 vim
 nano
