@@ -20,6 +20,7 @@ int main()
         while (std::getline(file, text)) {
 	    const std::string command = "sudo pacman -S " + text + " -y";
             system(command.c_str());
+	    system("-y");
         }
         file.close();
     }
