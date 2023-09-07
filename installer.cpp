@@ -18,7 +18,7 @@ int main()
     if (file.is_open()) {
         std::string text;
         while (std::getline(file, text)) {
-	    const std::string command = "sudo pacman -S " + text + " -y";
+	    const std::string command = "sudo pacman -S " + text;
             system(command.c_str());
 	    system("-y");
         }
